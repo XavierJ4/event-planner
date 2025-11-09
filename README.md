@@ -59,7 +59,7 @@ event-planner/
 ### 1. Database
 
 Log into MySQL (Workbench or CLI) and run:
-
+```sql
 CREATE DATABASE IF NOT EXISTS event_planner CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE event_planner;
 
@@ -72,17 +72,20 @@ CREATE TABLE IF NOT EXISTS events (
   ends_at DATETIME NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+```
 ---
 
 ### 2. Backend (server)
 
 From the server/ folder:
+```sql
 
 cd server
 npm install
 
+```
 Create a .env file (inside server/) with:
+```sql
 
 DB_HOST=127.0.0.1
 DB_USER=your_mysql_user
@@ -91,10 +94,13 @@ DB_NAME=event_planner
 DB_PORT=3306
 PORT=4000
 
+```
 Then start the server:
+```sql
 
 npm run dev
 
+```
 You should see:
 
 API running on http://localhost:4000
@@ -104,10 +110,12 @@ API running on http://localhost:4000
 ### 3. Frontend (client)
 
 From the client/ folder:
+```sql
 
 cd ../client
 npm install
 npm run dev
 
+```
 Then open:
 👉 http://localhost:5173
