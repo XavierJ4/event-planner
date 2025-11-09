@@ -74,7 +74,7 @@ CREATE TABLE IF NOT EXISTS events (
 );
 
 
-2. Backend (server)
+### 2. Backend (server)
 
 From the server/ folder:
 
@@ -99,7 +99,7 @@ You should see:
 API running on http://localhost:4000
 
 
-3. Frontend (client)
+### 3. Frontend (client)
 
 From the client/ folder:
 
