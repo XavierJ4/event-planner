@@ -73,6 +73,7 @@ CREATE TABLE IF NOT EXISTS events (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+---
 
 ### 2. Backend (server)
 
@@ -98,6 +99,7 @@ You should see:
 
 API running on http://localhost:4000
 
+---
 
 ### 3. Frontend (client)
 
