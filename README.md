@@ -60,7 +60,6 @@ event-planner/
 
 Log into MySQL (Workbench or CLI) and run:
 
-```sql
 CREATE DATABASE IF NOT EXISTS event_planner CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE event_planner;
 
