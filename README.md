@@ -43,6 +43,8 @@ event-planner/
     ├── db.js
 └── routes/
     └── events.js
+|── requirements.txt
+└── README.md
 ```
 
 ---
@@ -119,3 +121,31 @@ npm run dev
 ```
 Then open:
 👉 http://localhost:5173
+
+---
+
+### Requirements
+
+This project uses both frontend (React) and backend (Node.js + MySQL) dependencies.
+All dependencies are listed in the requirements.txt file at the project root.
+
+You can use this file to review or reinstall all versions consistently.
+
+## Dependencies included:
+
+```sql
+@fullcalendar/core==6.1.19
+@fullcalendar/daygrid==6.1.19
+@fullcalendar/interaction==6.1.19
+@fullcalendar/react==6.1.19
+@fullcalendar/timegrid==6.1.19
+bootstrap==5.3.8
+react==19.1.1
+react-dom==19.1.1
+react-router-dom==7.9.5
+express==4.19.2
+mysql2==3.11.3
+cors==2.8.5
+dotenv==16.4.5
+nodemon==3.1.3
+```
