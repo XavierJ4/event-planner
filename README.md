@@ -38,11 +38,11 @@ event-planner/
 │     └── EventDetails.jsx
 └── server/ # Express backend
 ├── node_modules/
-├── package.json
-── app.js
-├── db.js
+    ├── package.json
+    |── app.js
+    ├── db.js
 └── routes/
-└── events.js
+    └── events.js
 ```
 
 
