@@ -44,6 +44,7 @@ event-planner/
     -   └── events.js
 
 
+
 ---
 
 ## Getting Started
@@ -70,6 +71,8 @@ CREATE TABLE IF NOT EXISTS events (
   ends_at DATETIME NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
 
 2. Backend (server)
 
