@@ -45,7 +45,6 @@ event-planner/
     └── events.js
 ```
 
-
 ---
 
 ## Getting Started
