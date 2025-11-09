@@ -23,7 +23,25 @@ Built with React (Vite) on the front end, Node.js + Express on the backend, and 
 
 ## Project Structure
 
-<pre> ```bash event-planner/ ├─ client/ # React frontend (Vite) │ ├─ package.json │ ├─ vite.config.js │ └─ src/ │ ├─ main.jsx │ ├─ App.jsx │ └─ pages/ │ ├─ EventsList.jsx │ ├─ EventForm.jsx │ └─ EventDetails.jsx └─ server/ # Express backend ├─ package.json ├─ app.js ├─ db.js └─ routes/ └─ events.js ``` </pre>
+event-planner/
+-├── client/ # React frontend (Vite)
+-│ ├── node_modules/
+-│ ├── package.json
+-│ ├── vite.config.js
+-│ └── src/
+-│ ├── main.jsx
+-│ ├── App.jsx
+-│ └── pages/
+-│ ├── EventsList.jsx
+-│ ├── EventForm.jsx
+-│ └── EventDetails.jsx
+-└── server/ # Express backend
+-├── node_modules/
+-├── package.json
+-├── app.js
+-├── db.js
+-└── routes/
+-└── events.js
 
 
 ---
