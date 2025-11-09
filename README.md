@@ -58,4 +58,47 @@ event-planner/
 
 1. Database
 
-Log into MySQL (Workbench or CLI) and run: http://localhost:5173
+Log into MySQL (Workbench or CLI) and run: 
+
+CREATE DATABASE IF NOT EXISTS event_planner CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE event_planner;
+
+CREATE TABLE IF NOT EXISTS events (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(120) NOT NULL,
+  description TEXT,
+  location VARCHAR(120),
+  starts_at DATETIME NOT NULL,
+  ends_at DATETIME NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+2. Backend (server)
+
+From the server/ folder:
+
+cd server
+npm install
+
+Create a .env file in server/ with:
+
+DB_HOST=127.0.0.1
+DB_USER=your_mysql_user
+DB_PASSWORD=your_mysql_password
+DB_NAME=event_planner
+DB_PORT=3306
+PORT=4000
+
+Then start the server:
+
+npm run dev
+
+3. Frontend (client)
+
+From the client/ folder:
+
+cd ../client
+npm install
+npm run dev
+
+Then open: http://localhost:5173
