@@ -124,14 +124,14 @@ Then open:
 
 ---
 
-### Requirements
+## Requirements
 
 This project uses both frontend (React) and backend (Node.js + MySQL) dependencies.
 All dependencies are listed in the requirements.txt file at the project root.
 
 You can use this file to review or reinstall all versions consistently.
 
-## Dependencies included:
+### Dependencies included:
 
 ```sql
 @fullcalendar/core==6.1.19
